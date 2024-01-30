@@ -1,0 +1,14 @@
+{
+    "name": "apple/phplion",
+    "description": "A PHP Application for tracking expenses",
+    "type": "project",
+    "require": {},
+    "autoload":
+    {
+        "psr-4":
+         {
+            "App\\": "src/App",
+            "Framework\\": "src/Framework"
+        }
+    }
+}
